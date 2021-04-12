@@ -140,6 +140,6 @@ MEDIA_URL = '/media/'
 
 # 添加Cors配置
 # 1. 设置白名单
-CORS_ORIGIN_WHITELIST = ('http://10.105.237.227:8080',)
+CORS_ORIGIN_WHITELIST = ('http://localhost:8080',)
 # 2. 是指Cors Cookie
 CORS_ALLOW_CREDENTIALS = True
